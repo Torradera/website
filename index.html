@@ -2,28 +2,61 @@
     <head>
         <title>Olá, me chamo Allan!</title>
         <style>
-            h1 { color : white }
-            h3 { color : white }
-            p  { color : white }
-            body { background : grey }
-            
+            body {
+                font-family: 'Segoe UI';
+                color: #3d3d3d;
+            }
+            h1 {
+                font-size: 48px;
+            }
             img {
                 border-radius: 50%;
                 width: 15%;
             }
-            .apr { 
-                text-align: center;
+            #menu {
+                text-align: right;
+                padding-right: 20px;
+                padding-top: 20px;
             }
+            #apr { 
+                text-align: center;
+                background: #ffffff;
+                height: 400px;
+                padding-top: 40px;
+                padding-bottom: 50px;
+            }
+            #skills {
+                background : #202086;
+                height: 400px;
+            }
+            #contactme {
+                background : #ffffff;
+                height: 400px;
+            }
+
         </style>
     </head>
     <body>
-        <div class ="apr">
+        <div id = "menu">
+            <a href="#apr">Sobre mim</a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="#skills">Habilidades</a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="#contactme">Contato</a>
+        </div>
+        <div id ="apr">
             <h3>Olá, eu me chamo</h2>
             <h1>Allan Pedro</h1>
 
             <img src="allan.jpg" alt="Allan Pedro">
 
             <p>Eu sou um desenvolvedor</p>
+        </div>
+        <div id = "skills">
+
+        </div>
+        <div id = "contactme">
+
         </div>
     </body>
 </html>
